@@ -1,42 +1,166 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>KIQISUN - CS:GO Case Opening</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KIQISUN | Get Your Bonus</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: url('bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 20px;
+    }
+    header img {
+      width: 320px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin: 30px auto;
+      padding: 18px 38px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(90deg, #7209b7, #f72585);
+      border: none;
+      border-radius: 14px;
+      text-decoration: none;
+      box-shadow: 0 0 20px #f72585;
+      transition: all 0.3s ease-in-out;
+    }
+    .cta-button:hover {
+      background: linear-gradient(90deg, #f72585, #7209b7);
+      transform: scale(1.05);
+    }
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin: 60px 20px;
+      flex-wrap: wrap;
+    }
+    .feature {
+      max-width: 200px;
+      text-align: center;
+    }
+    .feature img {
+      width: 64px;
+      margin-bottom: 10px;
+    }
+    .hot-cases {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hot-cases h2 {
+      font-size: 28px;
+      color: #00f5d4;
+      margin-bottom: 30px;
+    }
+    .case-list {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .case {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 20px;
+      max-width: 220px;
+      text-align: center;
+      box-shadow: 0 0 20px #222;
+      backdrop-filter: blur(8px);
+    }
+    .case img {
+      width: 100%;
+      border-radius: 14px;
+      margin-bottom: 10px;
+    }
+    .case h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #f1faee;
+    }
+    .case p {
+      font-size: 14px;
+      color: #ccc;
+    }
+    .case a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      font-size: 14px;
+      background: #00f5d4;
+      color: #000;
+      border-radius: 10px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <img src="assets/logo.png" alt="KIQISUN Logo" class="logo"/>
-    <h1>Unlock Skins. Fast & Fun. Powered by KIQISUN</h1>
-    <a href="https://hellca.se/kiqisun" target="_blank" class="bonus-btn">CLAIM $0.70 + 10% BONUS</a>
+    <img src="logo.png" alt="KIQISUN Logo">
+    <a href="https://hellca.se/kiqisun" class="cta-button">CLAIM YOUR $0.70 BONUS +10% NOW</a>
   </header>
 
-  <section class="cases">
+  <section class="features">
+    <div class="feature">
+      <img src="icons/skins.png" alt="Real Skins">
+      <h4>Real Skins</h4>
+      <p>Withdraw and trade real CS2 skins instantly.</p>
+    </div>
+    <div class="feature">
+      <img src="icons/bonus.png" alt="Bonus">
+      <h4>Instant Bonus</h4>
+      <p>Start with $0.70 + 10% deposit bonus.</p>
+    </div>
+    <div class="feature">
+      <img src="icons/easy.png" alt="No Skill Needed">
+      <h4>No Skill Needed</h4>
+      <p>Just open cases and win. It’s that easy!</p>
+    </div>
+  </section>
+
+  <section class="hot-cases">
     <h2>🔥 HOT CASES</h2>
-    <div class="case-grid">
+    <div class="case-list">
       <div class="case">
-        <img src="assets/m4-case.png" alt="M4 Case">
-        <h4>M4 Case</h4>
-        <p>$5.25</p>
+        <img src="cases/m4case.png" alt="M4 Case">
+        <h3>M4 Case – $5.25</h3>
+        <p>Premium rifle case with M4 skins.</p>
+        <a href="https://hellca.se/kiqisun">Open Now</a>
       </div>
       <div class="case">
-        <img src="assets/yellow-case.png" alt="Yellow Case">
-        <h4>Yellow Case</h4>
-        <p>$14.00</p>
+        <img src="cases/yellowcase.png" alt="Yellow Case">
+        <h3>Yellow Case – $14</h3>
+        <p>Knife-focused yellow-themed drop.</p>
+        <a href="https://hellca.se/kiqisun">Open Now</a>
       </div>
       <div class="case">
-        <img src="assets/riptide-case.png" alt="Riptide Collections">
-        <h4>Riptide Collections</h4>
-        <p>$5.80</p>
+        <img src="cases/riptide.png" alt="Riptide Collection">
+        <h3>Riptide Collection – $5.80</h3>
+        <p>Golden-blue skins from Riptide.</p>
+        <a href="https://hellca.se/kiqisun">Open Now</a>
       </div>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 KIQISUN. All rights reserved.</p>
+    KIQISUN Pre-Landing Page | Not affiliated with Valve or Steam. For promotional use only.
   </footer>
 </body>
 </html>
