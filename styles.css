@@ -1,0 +1,66 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+.logo {
+  max-width: 200px;
+  margin: 30px auto 10px;
+}
+header {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.bonus-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background: linear-gradient(45deg, #ff3c00, #ff9800);
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 0 15px rgba(255, 60, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+.bonus-btn:hover {
+  transform: scale(1.05);
+}
+.cases {
+  padding: 40px 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.case-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.case {
+  background: rgba(30, 30, 30, 0.85);
+  padding: 15px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  transition: transform 0.3s ease;
+}
+.case:hover {
+  transform: scale(1.05);
+}
+.case img {
+  width: 100%;
+  border-radius: 8px;
+}
+.case h4 {
+  margin: 10px 0 5px;
+}
+footer {
+  margin: 50px 0 20px;
+  font-size: 14px;
+  color: #ccc;
+}
